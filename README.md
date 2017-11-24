@@ -11,20 +11,20 @@ This repository contains **Dockerfile** of [Scala](http://www.scala-lang.org) an
 ## Installation ##
 
 1. Install [Docker](https://www.docker.com)
-2. Pull [automated build](https://registry.hub.docker.com/u/hseeberger/scala-sbt) from public [Docker Hub Registry](https://registry.hub.docker.com):
+2. Pull [automated build](https://registry.hub.docker.com/u/gatorcse/scala-sbt) from public [Docker Hub Registry](https://registry.hub.docker.com):
 ```
-docker pull hseeberger/scala-sbt
+docker pull gatorcse/scala-sbt
 ```
 Alternatively, you can build an image from Dockerfile:
 ```
-docker build -t hseeberger/scala-sbt github.com/hseeberger/scala-sbt
+docker build -t gatorcse/scala-sbt github.com/gatorcse/scala-sbt
 ```
 
 
 ## Usage ##
 
 ```
-docker run -it --rm hseeberger/scala-sbt
+docker run -it --rm gatorcse/scala-sbt
 ```
 
 
